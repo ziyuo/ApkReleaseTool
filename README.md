@@ -18,11 +18,11 @@
 ###实例##
 1. 从PM那里拿到了部分渠道列表拿到四个渠道（将这些渠道名称拷入新建的记事本`chanels.txt`）以供演示。如图：
 
-![](images/release_chanels.png)
+![](ApkReleaseTools/images/release_chanels.png)
 
 
 2. 用户可以配置发布前的apk路径、发行包输出目录等信息的配置。如图：
-![](images/constants_config.png)
+![](ApkReleaseTools/images/constants_config.png)
 ```java
 package me.ziyuo.wang.tools;
 import java.io.File;
