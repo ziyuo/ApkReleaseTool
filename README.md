@@ -37,15 +37,20 @@ public interface CommValues {
 ```
 
 |   *配置Key*      |  *描述*  |
+
 |   OUT_PATH     |发行包的输出目录|
+
 |   WORK_PATH    |程序运行的工作目录，不可以和输入目录一致|
+
 |   APK_LOCATION |发布前apk的路径|
+
 |   PREFIX       |拷贝到META-INF文件中空文件的前缀|
+
 |   CHANELS_PATH |存储渠道列表的txt文件路径|
 
 3. 运行主程序，打好渠道的输出包会输出到配置的OUT_PATH目录下：
 
-E:\sking_release\work\qihu360\META-INF\ziyuo_qihu360
+`E:\sking_release\work\qihu360\META-INF\ziyuo_qihu360
 aapt a qihu360_sking.apk META-INF\ziyuo_qihu360
 正常执行完  Command 命令。
 删除工作目录:[E:\sking_release\work\qihu360]完成
@@ -60,7 +65,7 @@ aapt a wandoujia_sking.apk META-INF\ziyuo_wandoujia
 E:\sking_release\work\xiaomi\META-INF\ziyuo_xiaomi
 aapt a xiaomi_sking.apk META-INF\ziyuo_xiaomi
 正常执行完  Command 命令。
-删除工作目录:[E:\sking_release\work\xiaomi]完成
+删除工作目录:[E:\sking_release\work\xiaomi]完成`
 
 4. 检查发行包输出目录中多渠道apk是否可以正常安装
 
