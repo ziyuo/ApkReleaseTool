@@ -16,11 +16,11 @@
 3. 可以运行执行Java代码的的运行环境。
 
 ###实例##
-1. 从PM那里拿到了部分渠道列表拿到四个渠道（将这些渠道名称拷入新建的记事本`chanels.txt`）以供演示。如图：
+*1. 从PM那里拿到了部分渠道列表拿到四个渠道（将这些渠道名称拷入新建的记事本`chanels.txt`）以供演示。如图：
 
 ![](ApkReleaseTools/images/release_chanels.png)
 
-2. 用户可以配置发布前的apk路径、发行包输出目录等信息的配置。如图：
+*2. 用户可以配置发布前的apk路径、发行包输出目录等信息的配置。如图：
 ![](ApkReleaseTools/images/constants_config.png)
 ```java
 package me.ziyuo.wang.tools;
@@ -47,7 +47,7 @@ public interface CommValues {
 
 |   CHANELS_PATH |存储渠道列表的txt文件路径|
 
-3. 运行主程序，打好渠道的输出包会输出到配置的OUT_PATH目录下：
+*3. 运行主程序，打好渠道的输出包会输出到配置的OUT_PATH目录下：
 
 `E:\sking_release\work\qihu360\META-INF\ziyuo_qihu360
 aapt a qihu360_sking.apk META-INF\ziyuo_qihu360
@@ -66,7 +66,7 @@ aapt a xiaomi_sking.apk META-INF\ziyuo_xiaomi
 正常执行完  Command 命令。
 删除工作目录:[E:\sking_release\work\xiaomi]完成`
 
-4. 检查发行包输出目录中多渠道apk是否可以正常安装
+*4. 检查发行包输出目录中多渠道apk是否可以正常安装
 
 **ok,到此多渠道打包的打包过程完成！**
 
