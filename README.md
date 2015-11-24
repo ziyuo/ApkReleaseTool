@@ -45,40 +45,22 @@ public interface CommValues {
 
 3. 运行主程序，打好渠道的输出包会输出到配置的OUT_PATH目录下：
 
-`java Syso
 E:\sking_release\work\qihu360\META-INF\ziyuo_qihu360
-
 aapt a qihu360_sking.apk META-INF\ziyuo_qihu360
-
 正常执行完  Command 命令。
-
 删除工作目录:[E:\sking_release\work\qihu360]完成
-
 E:\sking_release\work\umeng\META-INF\ziyuo_umeng
-
 aapt a umeng_sking.apk META-INF\ziyuo_umeng
-
 正常执行完  Command 命令。
-
 删除工作目录:[E:\sking_release\work\umeng]完成
-
 E:\sking_release\work\wandoujia\META-INF\ziyuo_wandoujia
-
 aapt a wandoujia_sking.apk META-INF\ziyuo_wandoujia
-
 正常执行完  Command 命令。
-
 删除工作目录:[E:\sking_release\work\wandoujia]完成
-
 E:\sking_release\work\xiaomi\META-INF\ziyuo_xiaomi
-
 aapt a xiaomi_sking.apk META-INF\ziyuo_xiaomi
-
 正常执行完  Command 命令。
-
 删除工作目录:[E:\sking_release\work\xiaomi]完成
-
-`
 
 4. 检查发行包输出目录中多渠道apk是否可以正常安装
 
